@@ -13,9 +13,9 @@ function generatePassword()  {
   } else if (isNaN(numberOfCharacters)) {
     numberOfCharacters = prompt("Please enter a valid number.");
   }
-
   else {
     alert("Your password will be " + numberOfCharacters + " characters long.");
+
   }
 
   hasLowercase = confirm("Do you want lowercase characters?");
@@ -50,6 +50,11 @@ function generatePassword()  {
     alert("Your password will NOT have special characters.");
   }
 
+  if (hasLowercase === false && hasUppercase === false && hasNumbers === false && hasSpecial === false) {
+    alert("Please select at least one character type.");
+    generatePassword();
+  };
+
   // group selected characters
   if (hasLowercase) {
     possibleCharacters = possibleCharacters.concat(lowercaseCharacters);
@@ -63,13 +68,12 @@ function generatePassword()  {
   if (hasSpecial) {
     possibleCharacters = possibleCharacters.concat(specialCharacters);
   }
-
   // pick random cards out of new pool for length of password
   let finalPassword = ""
   for (let i = 0; i < numberOfCharacters; i++) {
     let rng =[Math.floor(Math.random() * possibleCharacters.length)];
     // or finalPassword += possibleCharacters[rng];
-    finalPassword = finalPassword +possibleCharacters[rng];
+    finalPassword = finalPassword + possibleCharacters[rng];
   }
   return finalPassword;
 };
@@ -87,3 +91,4 @@ function writePassword() {
 }
 
 // Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
