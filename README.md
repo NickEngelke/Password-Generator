@@ -8,7 +8,10 @@ Thi week's assigment was to build an application that generates a random passwor
 1. Open the password generator URL in your browser.
 2. Generate a random password by clicking the "Generate Password" button and following the prompts
 
-
+# Built With 
+1. HTML
+2. CSS
+3. JavaScript
 
 ## Contribution
 * Original code provided by https://github.com/coding-boot-camp/friendly-parakeet
