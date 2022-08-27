@@ -31,6 +31,3 @@ https://www.youtube.com/watch?v=iKo9pDKKHnc
 https://www.youtube.com/watch?v=duNmhKgtcsI
 https://www.youtube.com/watch?v=O-79Cb5s9U4
 https://owasp.org/www-community/password-special-characters
-
-
- 
