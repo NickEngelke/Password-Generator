@@ -1,4 +1,4 @@
-# Password-Generator
+# Password Generator
 
 # Purpose 
 Thi week's assigment was to build an application that generates a random password based on user preeference. In doing so, I implemented tools that were taught to me in the first three weeks of class. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write for proper functional behavior and response. Purpose of this assignment is to create a reliable security feature end user date. 
