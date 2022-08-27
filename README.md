@@ -13,6 +13,16 @@ Thi week's assigment was to build an application that generates a random passwor
 2. CSS
 3. JavaScript
 
+
+![Screenshot 2022-08-27 104800](https://user-images.githubusercontent.com/109486620/187044563-e82d2f9e-8a08-4fd3-8b35-22283547f629.png)
+
+
+
+
+
+
+
+
 ## Contribution
 * Original code provided by https://github.com/coding-boot-camp/friendly-parakeet
 
